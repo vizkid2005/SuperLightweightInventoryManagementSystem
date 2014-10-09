@@ -69,12 +69,14 @@ Go ahead, Start Exploring ...
 <img src="Imgs/indexBackground.png" alt="Back Ground Image Here" />
 <p id="aboutUs">
 In case you have any queries/difficulties feel free to contact us <a href="aboutUs.php">here</a></br>
-<b>Click <a href="http://127.0.0.1:88/nmims/msd1.24.4/index.php">Here</a> for Backup.</b> 
+<b>Click <a href="backup.php?arg1=localhost&arg2=root&arg3=&arg4=nmims">Here</a> for Backup.</b> 
 </p>
 </div>
 
 <?php 
-
+$date = date(DATE_RFC850);
+$date= str_replace(' ','',$date);
+echo $date;
 $query="select distinct(item.iName) from item,current where current.cQuantity<=item.iThreshold and item.iName=current.iName";
 
 $result=mysql_query($query,$connection);

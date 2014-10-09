@@ -1,9 +1,9 @@
 <?php
-#Vars - written at 2013-08-03
+#Vars - written at 2013-01-28
 $dbhost="127.0.0.1";
-$dbname="mysql";
+$dbname="nmims";
 $dbuser="root";
-$dbpass="";
+$dbpass="root";
 $dbport=3306;
 $dbsocket="";
 $compression=0;
@@ -22,10 +22,10 @@ $cronmailfrom="";
 $cron_use_sendmail=1;
 $cron_smtp="localhost";
 $cron_smtp_port="25";
-@cron_db_array=("food","nmims","nsa","performance_schema","test");
-@cron_dbpraefix_array=("","","","","");
-@cron_command_before_dump=("","","","","");
-@cron_command_after_dump=("","","","","");
+@cron_db_array=("nmims","performance_schema","test");
+@cron_dbpraefix_array=("","","");
+@cron_command_before_dump=("","","");
+@cron_command_after_dump=("","","");
 @ftp_server=("","","");
 @ftp_port=(21,21,21);
 @ftp_mode=(0,0,0);

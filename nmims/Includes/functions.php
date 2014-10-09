@@ -72,7 +72,7 @@ function writeFooter()
 {
 	echo "</div>
 	</div>
-	<div id=\"footer\"><h3 style=\"color: #443266; column-gap: normal;\"><pre>COPYRIGHT &copy;2012 BY MakeShift Developers,  ALL RIGHTS RESERVED</pre></h3></div>
+	<div id=\"footer\"><h3 style=\"color: #443266; column-gap: normal;\"><pre>   &copy;2014 MakeShift Developers,  ALL RIGHTS RESERVED</pre></h3></div>
 	</div>
 	
 	</body>

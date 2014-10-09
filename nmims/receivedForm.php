@@ -10,7 +10,7 @@
  
         </script>");
 		
-	$query="select iName from item";
+	$query="select iName from item order by iName ASC";
 	$result=mysql_query($query,$connection);
 ?>	
 <style type="text/css">
